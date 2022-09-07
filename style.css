@@ -1,0 +1,116 @@
+body{
+    background-color: #16171D;
+    font-family: 'Poppins', sans-serif;
+}
+
+i{
+    color: white;
+}
+
+#balance{
+    background-image: linear-gradient(to right, #B8D0F5, #5C90F4);
+    padding: 2em 1em 1em 2em;
+    border-radius: 10px;
+}
+
+.fa-arrow-trend-up{
+    color: green;
+}
+
+h4{
+    color: #FFFFFF;
+}
+
+.legenda{
+    color: #F5C249;
+}
+
+.moeda{
+    background-color: #282B35;
+    padding: 1em 1em 1em 1em;
+    border-radius: 15px;
+}
+
+.tituloMoeda{
+    color: #ffffff;
+    font-size: x-large;
+    margin-left: 0.5em;
+}
+
+.valor{
+    margin-top: 1em;
+    color: #A7AEBF;
+    font-weight: 200;
+}
+
+.lucratividade{
+    color: green;
+}
+
+.fa-bitcoin{
+    color: #F7931A;
+}
+
+.fa-caret-up{
+    color: green;
+}
+
+.noticia{
+    background-color: #282B35;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.textoNoticia{
+    color: white;
+}
+
+#footer{
+    background-color: #262932;
+    position: fixed;
+    bottom: 0;
+}
+
+.itemMenu{
+    color: #787A8D;
+}
+.itemMenu i{
+    color: #787A8D;
+}
+.itemMenu:hover{
+    color: #F5C249;
+}
+.itemMenu i:hover{
+    color: #787A8D;
+}
+
+.menu{
+    font-size: small;
+}
+
+#plus{
+    color: white;
+    background-color: #F5C249;
+    font-size: xx-large;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+
+#btc1{
+    float: right;
+    width: 20%;
+    margin-right: 30%;
+}
+
+#lucro{
+    display: inline;
+}
+
+#btc2{
+    margin-right: 0px;
+}

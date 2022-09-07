@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>.: The Crypto App :.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- busca e alarme-->
+    <div class="container">
+        <div class="row mt-2 mb-3">
+            <div class="col-12 text-end">
+                <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
+                <i class="fa-regular fa-bell fa-2x mx-1"></i>
+            </div>
+        </div>
+    </div>
+    <!-- saldo -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="balance">
+                    <img id="btc1" src="assets/2.png">
+                    <p>Seu Saldo</p>
+                    <h2>$ 15.830,27</h2>
+                    <p class="mt-5" id="lucro"> <i class="fa-solid fa-arrow-trend-up"></i> $ 1.830,00 de lucro</p>
+                    <img src="assets/1.png" id="btc2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top moedas -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-8">
+                <h4>Top Ativos</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-bitcoin fa-2x"></i> <span class="tituloMoeda">Bitcoin</span>
+                    <h4 class="valor">$ 45.898,16</h4>
+                    <p class="lucratividade">24,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <img src="assets/Chart line.png" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="moeda">
+                    <i class="fa-brands fa-ethereum fa-2x"></i><span class="tituloMoeda">Etherium</span>
+                    <h4 class="valor">$ 5.898,16</h4>
+                    <p class="lucratividade">2,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <img src="assets/Chart line.png" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- noticias -->
+    <div class="container mt-3 mb-5">
+        <div class="row">
+            <div class="col-8">
+                <h4>Notícias</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="assets/Mask group.png" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da Tesla sobem 35% após anúncio de Elon Musk.</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="assets/Mask group.png" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da Tesla sobem 35% após anúncio de Elon Musk.</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="assets/Mask group.png" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da Tesla sobem 35% após anúncio de Elon Musk.</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="assets/Mask group.png" width="100%">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da Tesla sobem 35% após anúncio de Elon Musk.</p>
+            </div>
+        </div>
+    </div>
+    <!-- rodape com menu de opcoes -->
+    <div class="container-fluid" id="footer">
+        <div class="row pt-3">
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-house"></i>
+                    <p class="menu">Home</p>
+                </div>
+            </div>
+            <div class="col-2  text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-simple icone"></i>
+                    <p class="menu">Market</p>
+                </div>
+
+            </div>
+            <div class="col-4  text-center">
+                <div id="plus">+</div>
+            </div>
+            <div class="col-2  text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-chart-pie icone"></i>
+                    <p class="menu">Portfolio</p>
+                </div>
+            </div>
+            <div class="col-2  text-center">
+                <div class="itemMenu">
+                    <i class="fa-solid fa-gear icone"></i>
+                    <p class="menu">Settings</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
