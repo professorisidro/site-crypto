@@ -15,9 +15,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="recuperarCotacoes();">
+
+
+    <!-- spinner-->
+    <div class="container-fluid">
+        <div id="meuSpinner">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <div id="spinner-circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- busca e alarme-->
     <div class="container">
         <div class="row mt-2 mb-3">
@@ -55,16 +69,16 @@
             <div class="col-6">
                 <div class="moeda">
                     <i class="fa-brands fa-bitcoin fa-2x"></i> <span class="tituloMoeda">Bitcoin</span>
-                    <h4 class="valor">$ 45.898,16</h4>
-                    <p class="lucratividade">24,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <h4 class="valor" id="valorBTC">$ 0,00</h4>
+                    <p class="lucratividade" id="varBTC">0,00 % <i class="fa-solid fa-caret-up"></i></p>
                     <img src="assets/Chart line.png" width="100%">
                 </div>
             </div>
             <div class="col-6">
                 <div class="moeda">
                     <i class="fa-brands fa-ethereum fa-2x"></i><span class="tituloMoeda">Etherium</span>
-                    <h4 class="valor">$ 5.898,16</h4>
-                    <p class="lucratividade">2,55% <i class="fa-solid fa-caret-up"></i></p>
+                    <h4 class="valor" id="valorETH">$ 0,00</h4>
+                    <p class="lucratividade" id="varETH">0,00 % <i class="fa-solid fa-caret-up"></i></p>
                     <img src="assets/Chart line.png" width="100%">
                 </div>
             </div>
